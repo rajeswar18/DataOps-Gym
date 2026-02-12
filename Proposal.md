@@ -84,7 +84,7 @@ But:
 ---
 ### Future: AI-Native Applications
 
-DataOps-Gym supports future modules such as:
+DataOps-Gym can be extended to support future modules such as:
 
 - Root cause copilots  
 - Predictive insight engines  
@@ -104,6 +104,7 @@ state = {
     "docs": business_definitions,
     "question": executive_query
 }
+```
 
 ### gent tools:
 generate_sql()
@@ -120,3 +121,17 @@ Constraint violations
 Evaluation signals
 
 This enables iterative reasoning, not single-shot prompting.
+
+## 15. Long-Term Evolution Roadmap
+
+Stage 1 — SQL correctness and doc grounding  
+Stage 2 — Time-series reasoning extensions for OT  
+Stage 3 — Insight-to-recommendation evaluation  
+Stage 4 — RL-trained, self-improving analytics agents  
+
+Ideally DataOps-Gym should becoms:
+
+- Internal trust engine  
+- Academic benchmark  
+- Strategic competitive moat  
+
