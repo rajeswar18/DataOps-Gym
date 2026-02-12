@@ -20,31 +20,40 @@ This is not a toy Text-to-SQL benchmark.
 
 It is a **closed-loop, code-driven analytics environment**.
 
+
 ---
 
-# 2️⃣ The Core Pain Point (Product-Driven)
+## 2. The Core Pain Point
 
-The biggest blocker to AI Data Explorer adoption:
+Enterprise analytics failure is rarely about intelligence.
 
-> “I don’t trust AI-generated analytics.”
+It is about **semantic correctness**.
 
-Trust fails when:
+Common failure modes:
 
-- SQL joins are subtly wrong  
-- Metric definitions are misapplied  
-- Wrong segment filters are used  
-- Numbers don’t reconcile  
-- Reports are non-auditable  
+- Wrong joins across complex schemas  
+- Misapplied metric definitions  
+- Incorrect time-window handling  
+- Hidden duplication effects  
+- Ignoring documentation-based exclusions  
+- Non-auditable outputs  
 
-DataOps-Gym directly evaluates and trains agents on:
+In CRM and OT use cases, this translates to:
 
-- Schema reasoning  
-- Metric definition grounding  
-- SQL execution correctness  
-- Evidence citation  
-- Error recovery  
+- Incorrect churn calculations  
+- Misleading renewal risk signals  
+- Inflated downtime metrics  
+- Misinterpreted anomaly detection  
+- Incorrect escalation prioritization  
 
-That is product-critical.
+For AI Data Explorer to power AI-native apps, analytics must be:
+
+- Executable  
+- Verifiable  
+- Grounded  
+- Auditable  
+
+DataOps-Gym enforces these properties.
 
 ---
 
