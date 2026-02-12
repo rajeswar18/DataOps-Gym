@@ -82,6 +82,17 @@ But:
 - No iterative debugging loop  
 
 ---
+### Future: AI-Native Applications
+
+DataOps-Gym supports future modules such as:
+
+- Root cause copilots  
+- Predictive insight engines  
+- Automated explanation systems  
+- Decision recommendation assistants  
+
+It transitions analytics from static dashboards to executable AI agents.
+---
 
 # 4️⃣ What DataOps-Gym Actually Is
 
